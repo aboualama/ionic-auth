@@ -16,7 +16,7 @@ export class ThemesService {
       this.theme.next(val);
   }
 
-  getActiveTheme() {
+  getActiveTheme() { 
       return this.theme.asObservable();
   }
 }

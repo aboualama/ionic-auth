@@ -16,7 +16,7 @@ export class HomePage {
   }
  
     toggleAppTheme() {
-    if (this.selectedTheme == 'black-theme') {
+    if (this.selectedTheme === 'black-theme') {
       this.settings.setActiveTheme('red-theme');
     } else {
       this.settings.setActiveTheme('black-theme');

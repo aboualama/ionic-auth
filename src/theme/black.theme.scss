@@ -1,10 +1,13 @@
 :root {
-  .black-theme { 
-      
-        .test-black {
-          color: rgb(230, 15, 15);
-          font-size: 32px;
-        }
+  .black-theme {  
+    ion-title{
+      background-color: rgb(172, 3, 3);
+      color: rgb(255, 255, 255);
+    }
+    ion-content{
+      --background: rgb(0, 0, 0);
+      --color: rgb(255, 255, 255);
+    }
         
   } 
 }
