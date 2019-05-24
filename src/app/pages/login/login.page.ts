@@ -7,9 +7,10 @@ import { AuthService } from '../../services/auth.service';
   templateUrl: './login.page.html',
   styleUrls: ['./login.page.scss'],
 })
-export class LoginPage  {
-
-  constructor(private router: Router, private  authService:  AuthService){}
+export class LoginPage  { 
+ 
+  constructor(private router: Router, private  authService:  AuthService){} 
+  
 
   login(form){
 
